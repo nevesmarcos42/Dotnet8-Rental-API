@@ -13,7 +13,7 @@ API RESTful robusta para gerenciamento de locadora de veículos. Sistema desenvo
 
 ---
 
-## 📋 Índice
+##  Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -30,7 +30,7 @@ API RESTful robusta para gerenciamento de locadora de veículos. Sistema desenvo
 
 ---
 
-## 📖 Sobre o Projeto
+##  Sobre o Projeto
 
 Rental API é uma aplicação completa para gerenciamento de locadoras de veículos, oferecendo um sistema robusto para controle de veículos, clientes e aluguéis. O projeto foi desenvolvido com foco em boas práticas de desenvolvimento, arquitetura limpa e escalabilidade.
 
@@ -47,18 +47,18 @@ Rental API é uma aplicação completa para gerenciamento de locadoras de veícu
 
 ---
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 ### Backend (API REST)
 
-#### 🔐 Autenticação
+####  Autenticação
 
 • Login com JWT  
 • Controle de acesso baseado em roles (Admin, Atendente)  
 • Proteção de rotas sensíveis  
 • Hash de senhas com BCrypt
 
-#### 🚗 Veículos
+####  Veículos
 
 • Criar, editar e listar veículos  
 • Filtros por disponibilidade  
@@ -84,7 +84,7 @@ Rental API é uma aplicação completa para gerenciamento de locadoras de veícu
 - `rental.renewed` → Aluguel renovado
 - `rental.completed` → Aluguel finalizado
 
-#### 📊 Validações de Negócio
+####  Validações de Negócio
 
 • Veículo deve estar disponível  
 • Cliente deve estar ativo  
@@ -94,7 +94,7 @@ Rental API é uma aplicação completa para gerenciamento de locadoras de veícu
 
 ---
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 ### Backend
 
@@ -129,7 +129,7 @@ Rental API é uma aplicação completa para gerenciamento de locadoras de veícu
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 ![Diagrama Clean Architecture](docs/clean-architecture-diagram.svg)
 
@@ -192,7 +192,7 @@ Dotnet8-Rental-API/
 
 ---
 
-## 📦 Instalação
+##  Instalação
 
 ### Pré-requisitos
 
@@ -267,7 +267,7 @@ dotnet run --project src/RentalAPI.API/RentalAPI.API.csproj
 
 ---
 
-## 🚀 Uso
+##  Uso
 
 ### Primeiro Acesso
 
@@ -341,7 +341,7 @@ GET /api/rentals/active
 
 ---
 
-## 📚 Documentação da API
+##  Documentação da API
 
 A documentação interativa está disponível via Swagger UI após iniciar a aplicação:
 
@@ -451,11 +451,11 @@ dotnet test --collect:"XPlat Code Coverage"
 
 Cobertura de testes:
 
-• ✅ **Commands e Queries** (MediatR Handlers)  
-• ✅ **Validators** (FluentValidation)  
-• ✅ **Repositories** (EF Core)  
-• ✅ **Domain Entities**  
-• ✅ **Mocks** (Moq + FluentAssertions)
+•  **Commands e Queries** (MediatR Handlers)  
+•  **Validators** (FluentValidation)  
+•  **Repositories** (EF Core)  
+•  **Domain Entities**  
+•  **Mocks** (Moq + FluentAssertions)
 
 ### Lint e Qualidade de Código
 
@@ -472,7 +472,7 @@ dotnet build -c Release
 
 ---
 
-## 🐳 Docker
+##  Docker
 
 ### Arquitetura Docker
 
@@ -518,7 +518,7 @@ docker-compose up -d postgres
 
 ---
 
-## 🔄 CI/CD
+##  CI/CD
 
 O projeto inclui pipeline de CI/CD usando GitHub Actions.
 
@@ -532,10 +532,10 @@ Push/PR → Restore → Build → Tests → Docker Build
 
 O arquivo `.github/workflows/build-and-test.yml` está configurado para:
 
-• ✅ Executar testes automaticamente  
-• ✅ Build do projeto .NET  
-• ✅ Validação de código  
-• ✅ Construir imagens Docker (branch main)
+•  Executar testes automaticamente  
+•  Build do projeto .NET  
+•  Validação de código  
+•  Construir imagens Docker (branch main)
 
 ### Deploy
 
@@ -602,7 +602,7 @@ dotnet ef migrations remove --project src/RentalAPI.Infrastructure --startup-pro
 
 ---
 
-## 🤝 Contribuindo
+##  Contribuindo
 
 Contribuições são bem-vindas! Siga os passos:
 
@@ -624,7 +624,7 @@ Contribuições são bem-vindas! Siga os passos:
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
