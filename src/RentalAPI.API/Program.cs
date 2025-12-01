@@ -123,11 +123,12 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Auto-migrate database on startup
+// Auto-migrate database on startup and seed data
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<RentalDbContext>();
     dbContext.Database.Migrate();
+    await DatabaseSeeder.SeedAsync(dbContext);
 }
 
 // Configure the HTTP request pipeline
