@@ -90,3 +90,5 @@ $RECYCLE.BIN/
 
 # JetBrains Rider
 *.sln.iml
+
+.fake
