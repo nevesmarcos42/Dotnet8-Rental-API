@@ -1,5 +1,7 @@
 # Rental API - Sistema de Locação de Veículos
 
+<div align="center">
+
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?style=for-the-badge&logo=dotnet)
 ![C#](https://img.shields.io/badge/C%23-12.0-239120?style=for-the-badge&logo=csharp)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=for-the-badge&logo=postgresql)
@@ -11,6 +13,7 @@ API RESTful robusta para gerenciamento de locadora de veículos. Sistema desenvo
 
 **[Funcionalidades](#funcionalidades)** • **[Tecnologias](#tecnologias)** • **[Instalação](#instalação)** • **[Uso](#uso)** • **[API](#documentação-da-api)** • **[Contribuir](#contribuindo)**
 
+</div>
 ---
 
 ##  Índice
